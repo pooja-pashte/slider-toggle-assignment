@@ -80,6 +80,22 @@
   font-size: 14px;
 }
 
+.count {
+  position: relative;
+}
+
+.count::before {
+  content: "";
+  position: absolute;
+  left: -10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 6px;
+  height: 6px;
+  background-color: rgb(142, 140, 140);
+  border-radius: 50%;
+}
+
 .nostrategy {
   display: flex;
   flex-direction: column;
