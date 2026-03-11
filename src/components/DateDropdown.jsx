@@ -1,6 +1,7 @@
 export default function DateDropdown({ dateArray, date, setDate }) {
   return (
     <select
+      id="date-select"
       className="dropdown"
       value={date}
       onChange={(e) => setDate(e.target.value)}
