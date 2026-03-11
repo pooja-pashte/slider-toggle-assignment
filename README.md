@@ -1,4 +1,4 @@
-# Strategy UI Assignment
+# Slider Toggle Assignment
 
 Tech Stack
 - React
